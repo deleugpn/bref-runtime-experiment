@@ -1,6 +1,6 @@
 <?php
 
-require '../../autoload.php';
+require __DIR__ . '/../../../autoload.php';
 
 $lambdaRuntime = \Bref\Runtime\LambdaRuntime::fromEnvironmentVariable('remi-collect-php-experiment');
 
