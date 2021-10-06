@@ -1,6 +1,6 @@
 <?php
 
-require '../vendor/autoload.php';
+require '../../../autoload.php';
 
 $lambdaRuntime = \Bref\Runtime\LambdaRuntime::fromEnvironmentVariable('remi-collect-php-experiment');
 
