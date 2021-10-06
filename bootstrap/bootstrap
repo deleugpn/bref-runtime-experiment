@@ -7,5 +7,6 @@ while true
 do
     # We redirect stderr to stdout so that everything
     # written on the output ends up in Cloudwatch automatically
-    PHP_INI_SCAN_DIR=/opt/bref-runtime/vendor/deleugpn/bref-runtime-experiment/bootstrap/ /opt/bin/php "./bootstrap.php" 2>&1
+    PHP_INI_SCAN_DIR=/opt/bref-runtime/vendor/deleugpn/bref-runtime-experiment/bootstrap/ \
+      /opt/bin/php "/opt/bref-runtime/vendor/deleugpn/bref-runtime-experiment/bootstrap/bootstrap.php" 2>&1
 done
